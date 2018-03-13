@@ -1,0 +1,374 @@
+	/*FONT FAMILY*/
+
+	/*normal*/	.font1 {
+		font-family: 'Righteous', cursive;
+		font-style: normal;
+	}
+
+	/*italic*/	.font2 {
+		font-family: 'Righteous', cursive;
+		font-style: italic;
+		
+	}
+
+	/*bold*/	.font3 {
+		font-family: 'Righteous', cursive;
+		font-weight: bold;
+		
+	}
+
+	/*bold & italic*/	.font4 {
+		font-family: 'Righteous', cursive;
+		font-weight: bold;
+		font-style: italic;
+		
+	}
+
+	/*normal*/	.font5 {
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		
+	}
+
+	/*italic*/	.font6 {
+		font-family: 'Open Sans', sans-serif;
+		font-style: italic;
+		
+	}
+
+	/*bold*/	.font7 {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: bold;
+		
+	}
+
+	/*bold & italic*/	.font8 {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: bold;
+		font-style: italic;
+	}
+
+	/*normal*/	.font9 {
+		font-family: 'Lato', sans-serif;	
+		
+	}
+
+	/*bold*/	.font10 {
+		font-family: 'Lato', sans-serif;
+		font-weight: 500;
+		line-height: 1.4;
+}
+
+
+	/*bold*/	.font11 {
+		font-family: "Ubuntu",Arial,sans-serif;
+}
+
+	/*bold*/	.font12 {
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		line-height: 1.4;
+}
+
+	/*bold*/	.font14 {
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		
+}
+
+	/*bold*/	.font13 {
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		line-height: 1.4;
+		margin: 0px
+}
+
+
+
+	/*FONT SIZES*/
+	
+.size1 {
+	font-size: 17px;
+	
+}
+
+.size2 {
+	font-size: 20px;
+	
+}
+
+.size3 {
+	font-size: 25px;
+	
+}
+
+.size4 {
+	font-size: 30px;
+	
+}
+
+.size6 {
+	font-size: 35px;
+	
+}
+
+.size7 {
+	font-size: 40px;
+	
+}
+
+.size8 {
+	font-size: 45px;
+	
+}
+
+.size9 {
+	font-size: 15px;
+	
+}
+
+.size10 {
+	font-size: 16px;
+	
+}
+
+
+@media (max-width: 767px) {	
+		.size1 {
+	font-size: 15px;
+	
+	}
+
+	.size2 {
+		font-size: 16px;
+		
+	}
+
+	.size3 {
+		font-size: 20px;
+		
+	}
+
+	.size4 {
+		font-size: 25px;
+		
+	}
+
+	.size6 {
+		font-size: 30px;
+		
+	}
+
+	.size7 {
+		font-size: 35px;
+		
+	}
+
+	.size8 {
+		font-size: 40px;
+		
+	}
+
+	.size9 {
+		font-size: 10px;
+		
+	}
+
+	.size10 {
+		font-size: 14px;
+		
+	}
+
+	
+	
+	
+}
+
+
+@media (max-width: 480px) {
+			.size1 {
+	font-size: 15px;
+	
+	}
+
+	.size2 {
+		font-size: 16px;
+		
+	}
+
+	.size3 {
+		font-size: 20px;
+		
+	}
+
+	.size4 {
+		font-size: 25px;
+		
+	}
+
+	.size6 {
+		font-size: 25px;
+		
+	}
+
+	.size7 {
+		font-size: 35px;
+		
+	}
+
+	.size8 {
+		font-size: 40px;
+		
+	}
+
+	.size9 {
+		font-size: 10px;
+		
+	}
+
+	.size10 {
+		font-size: 14px;
+		
+	}
+	
+	
+	
+	
+}
+
+	/*NORMAL COLORS*/
+
+	/*White*/	.color1 {
+		color: #fff; /*White*/
+		
+	}
+
+	/*lightgrey*/	.color2 {
+		color: #f5f5f5; /*lightgrey*/
+		
+	}
+
+	/*grey*/	.color3 {
+		color: #666; /*grey*/
+		
+	}
+
+	/*darkgrey*/	.color4 {
+		color: #303030; /*darkgrey*/
+		
+	}
+
+	/*black*/	.color5 {
+		color: #212121; /*black*/
+		
+	}
+
+	/*main blue*/	.color6 {
+		color: #00a6ff; /*main blue*/
+		
+	}
+
+	/*yellow*/	.color7 {
+		color: #FFD700; /*yellow*/
+		
+	}
+
+	/*green*/	.color8 {
+		color: #33a735; /*green*/
+		
+	}
+
+	/*light blue*/	.color9 {
+		color: #6495ED; /*light blue*/
+		
+	}
+
+	/*dark red*/	.color10 {
+		color: #B22222; /* dark red*/
+	
+	}
+
+	
+	
+	
+	/*BACKGROUND COLORS*/
+	/*lightgrey*/	.bg-color0 {
+		background-color: #efefef; /*lightgrey*/
+		
+	}
+	
+	
+	/*White*/	.bg-color1 {
+		background-color: #fff; /*white*/
+		
+	}
+
+	/*lightgrey*/	.bg-color2 {
+		background-color: #f5f5f5; /*lightgrey*/
+		
+	}
+
+	/*grey*/	.bg-color3 {
+		background-color: #666; /*grey*/
+		
+	}
+
+	/*darkgrey*/	.bg-color4 {
+		background-color: #303030; /*darkgrey*/
+		
+	}
+
+	/*black*/	.bg-color5 {
+		background-color: #212121; /*black*/
+		
+	}
+
+	/*main blue*/	.bg-color6 {
+		background-color: #00a6ff; /*main blue*/
+		
+	}
+
+	/*yellow*/	.bg-color7 {
+		background-color: #FFD700; /*yellow*/
+		
+	}
+
+	/*green*/	.bg-color8 {
+		background-color: #33a735; /*green*/
+		
+	}
+
+	/*light blue*/	.bg-color9 {
+		background-color: #6495ED; /*light blue*/
+		
+	}
+
+	/*dark red*/	.bg-color10 {
+		background-color: #B22222; /* dark red*/
+		
+	}
+	
+	
+		/*dark red*/	.bg-color11 {
+		background-color: #eff7ff; /* dark red*/
+		
+	}
+	
+						.bg-color12 {
+		background-color: 	#e8f1f6; /* light blue*/
+		
+	}
+
+	    
+	
+	
+.right {
+	float: right;
+	
+	
+}
+
+.padding1 {
+	padding: 0px 10px 0px 0px
+	
+}
