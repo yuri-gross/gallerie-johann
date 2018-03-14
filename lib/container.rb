@@ -1,7 +1,20 @@
 
 eigener_ordner = File.dirname(__FILE__)
 
-template = File.read(File.expand_path("../daten/container_templ.html", eigener_ordner))
+# DRY
+# don't repeat yourself!
+
+daten_ordner = File.expand_path("../daten/", eigener_ordner)
+
+seiten_template = File.read(File.expand_path("seiten_template.html", daten_ordner))
+frame_template = File.read(File.expand_path("frame_template.html", daten_ordner))
+
+neuer_inhalt = frame_template * 10
+ziel_dateiname = File.expand_path("gallery.html", daten_ordner)
+
+ziel_inhalt = seiten_template.sub( '<p class="platzhalter">frame_template.html</p>', neuer_inhalt)
 
 
-puts template
+File.open(ziel_dateiname, "w") do |file|
+  file.puts ziel_inhalt
+end
