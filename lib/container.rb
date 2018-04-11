@@ -14,7 +14,7 @@ frame_template = File.read(File.expand_path("frame_template.html", design_ordner
 #neuer_inhalt = frame_template * 10
 neuer_inhalt = Dir[inhalt_ordner + "/fi-*"].map do |pfad_zum_frame_ordner|
   bild_pfad = Dir[pfad_zum_frame_ordner + "/*.jpg"].first     # erstes Bild aus dem Ordner
-  belegter_frame = frame_template #.sub('platzhalter.gif', bild_pfad)
+  belegter_frame = frame_template.sub('platzhalter.gif', bild_pfad)
 
   datensatz_pfad = Dir[pfad_zum_frame_ordner + "/*.dat"].first
   if datensatz_pfad
