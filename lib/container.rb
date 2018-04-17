@@ -25,8 +25,7 @@ neuer_inhalt = Dir[inhalt_ordner + "/fi-*"].map do |pfad_zum_frame_ordner|
       next if zeile.strip.empty?
 
       bezeichnung, inhalt = zeile.split("=")
-      bezeichnung.strip!
-      inhalt.strip!
+      bezeichnung.strip! ; inhalt.strip!
 
       puts "#{bezeichnung} = #{inhalt}"
       #puts "#{bezeichnung}-Platzhalter".inspect
